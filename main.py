@@ -2,6 +2,8 @@ import pyautogui as pg
 import pandas as pd
 import time
 
+#Documentação de pyautogui
+#https://pyautogui.readthedocs.io/en/latest/
 # pyautogui.write -escrever
 # pyautogui.press - apertar 1 tecla
 # pyautogui.click - evento clicar na tela
@@ -16,7 +18,7 @@ pg.press("enter")
 
 
 #Entar no link do sistema
-#bAVEGADOR ANONIMO
+#Navegador Anonimo
 #pg.hotkey("ctrl", "shift", "n")
 pg.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
 pg.press("enter")
